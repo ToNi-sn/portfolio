@@ -1,0 +1,70 @@
+---
+layout: default
+---
+
+
+<div id="particles-js"></div>
+<!-- partial -->
+<script src='https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'></script>
+<script src='https://threejs.org/examples/js/libs/stats.min.js'></script><script  src="./script.js"></script>
+
+
+<section id="intro">
+
+    <div class="flex-row-between-2" id="test">
+        <div>
+            <img src="memoji_cloud.png" width="110" height="90">
+        </div>
+        <div>
+            <p style="color:white;font-size:30px;">&nbsp&nbsp&nbsp&nbsp TONI'S PORTFOLIO</p>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Aspiring Data Scientist & Machine Learning Engineer @TelecomParis.
+        </div>
+
+    </div>
+    <div class="bio">
+        <b>
+        I am from Toulouse where I did most of my engineering studies.
+        After 2 years in a major french IT company, I decided to go back to school to sharpen my skills in machine learning and data management.
+        This portfolio is dedicated to present my works during my learning path and share my thoughts about machine learning in general. <Br>
+        &nbsp <Br>
+        Also, I am currently looking for an internship starting July 2022 so feel free to contact me at t.fortora@gmail.com <Br>
+        &nbsp <Br>
+        <p></b>
+        <a href="{{ site.url }}{{ site.baseurl }}/about/"> ➕ <b>More about me</b></a>
+        </p>
+
+    </div>
+
+
+</section>
+
+
+<!--
+<div class="search-article">
+    <label for="search-input" aria-hidden="true"> -->
+        <!-- Magnifier -->
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+            stroke="rgba(128,128,128,0.8)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="feather feather-search">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+    </label>
+
+    <input type="search" id="search-input" placeholder="Find some articles here" aria-label="Search">
+    <ul id="search-results"></ul>
+</div> -->
+
+<section class="posts" id="Blog">
+    <h2>POSTS</h2>
+    <ul>
+        {% for post in site.posts %}
+        <li>
+		<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
+        </li>
+        {% endfor %}
+    </ul>
+</section>
+</div>
+
