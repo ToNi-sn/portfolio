@@ -87,7 +87,7 @@ df_centre_reduit = pd.DataFrame(preprocessing.scale(df_top_encoded_reduce, with_
 
 So the dataframe ends up like this:
 
-<img src="/Images/df_cluster.png">
+<img src="https://github.com/ToNi-sn/portfolio/blob/gh-pages/Images/df_cluster.png?raw=true">
 
 Now We can apply DBSCAN Method on it and try to find the optimum number of min samples.
 ```python
@@ -111,7 +111,7 @@ plt.xlabel("Number of clusters")
 plt.ylabel("min_samples");
 ```
 
-<img src="/Images/output_8_0.png">
+<img src="https://github.com/ToNi-sn/portfolio/blob/gh-pages/Images/DBSCAN_choice.png?raw=true">
 
 In the light of the assumption made at athe beginning of this article, it appears that optimal value for min samples is 19.
 

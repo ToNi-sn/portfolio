@@ -75,10 +75,9 @@ As we are looking for road running performance, only the running discipline will
 Plolty library was used to get the figures because of its responsiveness and hover feature. It makes it easier to "play" with graphs.
 
 
-Evolution of performance            |  Evolution of the number of runners
-:-------------------------:|:-------------------------:
-![](/Images/Performance_evolution.png)  |  ![](/Images/Number_of_Marathoner_evolution.png)
+{% include evolution_of_performance.html %}
 
+{% include evolution_of_runners.html %}
 
 
 
@@ -90,23 +89,16 @@ In the next graphs, each bubble represent an athlete.
 Even if the disciplines have been opened to many people, African athletes are still dominating the competition, especially Kenyan and Ethiopian athletes.
 The Asian continent have an impressive amount of marathon runners with a lot of density. Quite surprisingly Europe and North America which have the best facilities to train and organise world major marathon are far behind...
 
-
-![](/Images/overview.png)
+{% include overview.html %}
 
 Now if the data are reduced to only the top performers (males or females) the graphs completely change. A top performer is considered as someone with the potential to win a major marathon (Paris, New-York...) or to win an olympic medal. For simplification here the a top man performer has already ran under 2h 09min 20s and a top woman performer has already ran under 2h 26min 15s
 
-![](/Images/overview_top.png)
+{% include overview_top.html %}
 
-Evolution of top performance |  Evolution of the number of top runners
-:-------------------------:|:-------------------------:
-![](/Images/top_evolution.png)  |  ![](/Images/count_top_evolution.png)
 
-The boom of performances after 2018 is even more blatant here. The numbers of top performers has been almost multiplied by 3 in just one year. It can be explained by the use of carbon plated shoes. Many brands have launched on the market shoes that improve running economy. It means less tiredness in muscles so a better final time in marathon.
+The boom of performances after 2018 is even more blatant in the next two graphs. The numbers of top performers has been almost multiplied by 3 in just one year. It can be explained by the use of carbon plated shoes. Many brands have launched on the market shoes that improve running economy. It means less tiredness in muscles so a better final time in marathon.
 
-<!---
-Evolution of top performance |  Evolution of the number of top runners  |  Evolution of the number of top runners
-:-------------------------:|:-------------------------:|:-------------------------:
-![](/Images/nike-air-zoom-alphafly-next-eliud-kipchoge.png)  |  ![](/Images/adidas-adizero-prime-x.png) |  ![](/Images/asics-metaspeed-sky.png)
+{% include top_evolution.html %}
 
---->
+{% include count_top_evolution.html %}
 
