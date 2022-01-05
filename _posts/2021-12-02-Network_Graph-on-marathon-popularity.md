@@ -48,6 +48,7 @@ df.head()
 ```
 
 The data frame ends up like this :
+
 ![](/Images/dataframe.png)
 
 ### Creating NetworkX graph
