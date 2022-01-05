@@ -77,7 +77,9 @@ Plolty library was used to get the figures because of its responsiveness and hov
 
 Evolution of performance            |  Evolution of the number of runners
 :-------------------------:|:-------------------------:
-![](/Images/Performance_evolution.png)  |  ![](/Images/Number_of_Marathoner_evolution.png)
+![](<img src="https://github.com/ToNi-sn/portfolio/raw/gh-pages/Images/dataframe.png">
+)  |  ![](<img src="https://github.com/ToNi-sn/portfolio/raw/gh-pages/Images/dataframe.png">
+)
 
 
 
