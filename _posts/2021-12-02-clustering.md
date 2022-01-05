@@ -87,8 +87,7 @@ df_centre_reduit = pd.DataFrame(preprocessing.scale(df_top_encoded_reduce, with_
 
 So the dataframe ends up like this:
 
-
-
+<img src="/Images/df_cluster.png">
 
 Now We can apply DBSCAN Method on it and try to find the optimum number of min samples.
 ```python
@@ -112,7 +111,7 @@ plt.xlabel("Number of clusters")
 plt.ylabel("min_samples");
 ```
 
-![](/Images/output_8_0.png)
+<img src="/Images/output_8_0.png">
 
 In the light of the assumption made at athe beginning of this article, it appears that optimal value for min samples is 19.
 
@@ -132,6 +131,6 @@ With this parameter, DBSCAN is able to detect 256 anomalies.
 {% include cluster.html %}
 
 It is difficult to say if the algorithm performed well as there is not labelled data if an athlete is doping or not. (if you find suach a dataset do not hesitate to contact me to enrich my study).
-However there are still some interesting cases.
+However, there are still some interesting cases.
 For example, the athlete El Hassan EL ABBASSI has been suspended for suspected blood doping. There is also Mo FARAH with a lot of doping suspicions. Finally some anomaly may be explained by the fact that some athletes (especially athletes from east Africa) change nationality for European country.
 
