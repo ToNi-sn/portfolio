@@ -49,7 +49,7 @@ df.head()
 
 The data frame ends up like this :
 
-<img src="/Images/dataframe.png" width="300" height="150">
+<img src="/Images/dataframe.png">
 
 ### Creating NetworkX graph
 Now the graph can be created :
