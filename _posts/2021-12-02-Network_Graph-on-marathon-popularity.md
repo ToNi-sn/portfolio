@@ -49,7 +49,7 @@ df.head()
 
 The data frame ends up like this :
 
-<img src="/Images/dataframe.png" width="10" height="5">
+<img src="/Images/dataframe.png" width="300" height="150">
 
 ### Creating NetworkX graph
 Now the graph can be created :
@@ -100,4 +100,3 @@ Blue edges represent marathons and orange ones country (ICO designation). The si
 <img src="/Images/graph_zoom.png">
 
 Berlin appears to be the most popular marathon with 9 nations linked to it. With a close look we can see some unsuspected correlation. For example, Dubaï marathon is the most ran marathon Ethiopian athletes (the winning prizes of 100k$ and its geographical position must be the reason of its popularity).
-/Users/toni/portfolio/Images/graph_zoom.png
