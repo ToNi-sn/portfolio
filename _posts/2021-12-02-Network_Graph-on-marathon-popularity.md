@@ -97,6 +97,6 @@ plt.show()
 By zooming in the center of the figure, the links are more distinguishable.
 Blue edges represent marathons and orange ones country (ICO designation). The size of the edge is proportional to its number of links.
 
-![](/Images/graph_zoom.png)
+![](https://github.com/ToNi-sn/portfolio/blob/gh-pages/Images/graph_zoom.png)
 
 Berlin appears to be the most popular marathon with 9 nations linked to it. With a close look we can see some unsuspected correlation. For example, Dubaï marathon is the most ran marathon Ethiopian athletes (the winning prizes of 100k$ and its geographical position must be the reason of its popularity).
