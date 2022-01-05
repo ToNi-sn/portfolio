@@ -97,7 +97,7 @@ plt.show()
 By zooming in the center of the figure, the links are more distinguishable.
 Blue edges represent marathons and orange ones country (ICO designation). The size of the edge is proportional to its number of links.
 
-![](Images/graph_zoom.png)
+![image](/Images/graph_zoom.png)
 <img src="/Images/graph_zoom.png">
 
 https://github.com/ToNi-sn/portfolio/blob/gh-pages/Images/graph_zoom.png?raw=true
