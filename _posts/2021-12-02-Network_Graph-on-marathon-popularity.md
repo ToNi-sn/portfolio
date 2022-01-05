@@ -99,5 +99,7 @@ Blue edges represent marathons and orange ones country (ICO designation). The si
 
 ![](Images/graph_zoom.png)
 <img src="{{ site.baseurl }}/Images/graph_zoom.png">
+{{ site.baseurl }}
+https://github.com/ToNi-sn/portfolio/blob/gh-pages/Images/graph_zoom.png?raw=true
 Berlin appears to be the most popular marathon with 9 nations linked to it. With a close look we can see some unsuspected correlation. For example, Dubaï marathon is the most ran marathon Ethiopian athletes (the winning prizes of 100k$ and its geographical position must be the reason of its popularity).
 /Users/toni/portfolio/Images/graph_zoom.png
